@@ -123,13 +123,79 @@ body{
 	box-shadow: 0 9px #1b3910;
 	transform: translateY(4px);
 }
-#info {
+
+/* used the below to overwrite bootstrap built in formatting so that the text could be seen */
+/* needed two per image as the <h5> didnt seem to react to id put in <div> under the image think I could cut down the code a bit from here though */
+/* when I created div for all of them it put the images on a black background */
+#info0 {
 	font-size: x-large;
-	color: white;
-	font-weight: 700;
 	background-color: black;
 	border-radius: 25px;
 	padding: 20px;
 }
+
+#info1 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info2 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info3 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+#info4 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info5 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info6 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info7 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info8 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#info9 {
+	font-size: x-large;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+
 
 
