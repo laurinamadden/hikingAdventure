@@ -3,6 +3,8 @@
 <html  lang="en">
 	<head>
 		<title>Adventure Game</title>
+		<meta name="keywords" content="Hiking, Game, Advice">
+		<meta name="author" content="Laurina Madden">
 		<link rel="stylesheet" href="../style/style.css"/>
 	</head>
 	<body onload="hideButtons()" >
@@ -17,67 +19,66 @@
 				</nav>
 			</div>
 		</div>
-		<!-- Heading -->
-		<h1>Welcome To The Adventure OF Hiking</h1>
-		<br/>
-		<!-- Text above first stage -->
-		<p>Not sure where to have your next hiking adventure in Ireland?</p>
-		<p>We are here to help you decide.</p>
-		<!-- First stage -->
-		<!-- Start the adventure by clicking the button -->		
-		<button class="button" id="B1" onclick="B1action()" >Click here to start your new Adventure</button>
-		<br/>
-		<!-- Second stage -->
-		<!-- Been hiking before ? -->
-		<div id="B2" >
-			<h2>Have you been hiking in Ireland before ?</h2>
-			<button class="button" onclick="B2option1()" >Of course</button>
-			<button class="button" onclick="B2option2()" >No, its all new to me</button>
-		</div>
-		<!-- Third stage -->
-		<!-- Go Hiking In: Connacht, Ulster, Munster or Leinster ? -->
-		<div id="B3" >	
-			<h2>Where in Ireland would you like to go hiking ?</h2>
-			<button class="button" onclick="B3option1()" >Connacht</button>
-			<button class="button" onclick="B3option2()" >Ulster</button>
-			<button class="button" onclick="B3option3()" >Munster</button>
-			<button class="button" onclick="B3option4()" >Leinster</button>
-			<button class="button" onclick="B3option5()" >Don't mind. I'm up for anywhere!</button>
-		</div>
-		
-		<!-- Fourth stage -->
-		<!-- Hills, Flatter ground or don't mind ? -->
-		<div id="B4" >	
-			<h2>Is there a type of terrain you would prefer ?</h2>
-			<button class="button" onclick="B4option1()" >Bring on the hills</button>
-			<button class="button" onclick="B4option2()" >Flatter ground for me</button>
-			<button class="button" onclick="B4option3()" >I'm not bothered</button>
-		</div>
-		<!-- Fifth stage -->
-		<!-- Afraid of heights or caves ? -->
-		<div id="B5" >	
-			<h2>Would you be put off by heights or caves ?</h2>
-			<button class="button" onclick="B5option1()" >I don't have a head for heights</button>
-			<button class="button" onclick="B5option2()" >Caves are too much altogether</button>
-			<button class="button" onclick="B5option3()" >Not at all, I'm up for the adventure</button>
-		</div>
-		<!-- Sixth stage -->
-		<!-- Time: Do you have a few hours or a full day ? -->
-		<div id="B6" >	
-			<h2>How much time do you have ?</h2>
-			<button class="button" onclick="B6option1()" >A few hours</button>
-			<button class="button" onclick="B6option2()" >A good few hours</button>
-			<button class="button" onclick="B6option3()" >Almost the day</button>
-		</div>
-		<!-- Return value to the customer -->
-		<!-- What hiking spot would we advise the customer to try -->
-			<div>
-				<p id="return2" ></p>
+			<!-- Heading -->
+			<h1>Welcome To The Adventure OF Hiking</h1>
+			<br/>
+			<!-- Text above first stage -->
+			<p>Not sure where to have your next hiking adventure in Ireland?</p>
+			<p>We are here to help you decide.</p>
+			<!-- First stage -->
+			<!-- Start the adventure by clicking the button -->		
+			<button class="button" id="B1" onclick="B1action()" >Click here to start your new Adventure</button>
+			<br/>
+			<!-- Second stage -->
+			<!-- Been hiking before ? -->
+			<div id="B2" >
+				<h2>Have you been hiking in Ireland before ?</h2>
+				<button class="button" onclick="B2option1()" >Of course</button>
+				<button class="button" onclick="B2option2()" >No, its all new to me</button>
 			</div>
-		<!-- Link to click on to bring to info page -->
-		<!--	<div id="Link" >
-				<p></p>
-			</div>-->	
+			<!-- Third stage -->
+			<!-- Go Hiking In: Connacht, Ulster, Munster or Leinster ? -->
+			<div id="B3" >	
+				<h2>Where in Ireland would you like to go hiking ?</h2>
+				<button class="button" onclick="B3option1()" >Connacht</button>
+				<button class="button" onclick="B3option2()" >Ulster</button>
+				<button class="button" onclick="B3option3()" >Munster</button>
+				<button class="button" onclick="B3option4()" >Leinster</button>
+				<button class="button" onclick="B3option5()" >Don't mind. I'm up for anywhere!</button>
+			</div>
+			
+			<!-- Fourth stage -->
+			<!-- Hills, Flatter ground or don't mind ? -->
+			<div id="B4" >	
+				<h2>Is there a type of terrain you would prefer ?</h2>
+				<button class="button" onclick="B4option1()" >Bring on the hills</button>
+				<button class="button" onclick="B4option2()" >Flatter ground for me</button>
+				<button class="button" onclick="B4option3()" >I'm not bothered</button>
+			</div>
+			<!-- Fifth stage -->
+			<!-- Afraid of heights or caves ? -->
+			<div id="B5" >	
+				<h2>Would you be put off by heights or caves ?</h2>
+				<button class="button" onclick="B5option1()" >I don't have a head for heights</button>
+				<button class="button" onclick="B5option2()" >Caves are too much altogether</button>
+				<button class="button" onclick="B5option3()" >Not at all, I'm up for the adventure</button>
+			</div>
+			<!-- Sixth stage -->
+			<!-- Time: Do you have a few hours or a full day ? -->
+			<div id="B6" >	
+				<h2>How much time do you have ?</h2>
+				<button class="button" onclick="B6option1()" >A few hours</button>
+				<button class="button" onclick="B6option2()" >A good few hours</button>
+				<button class="button" onclick="B6option3()" >Almost the day</button>
+			</div>
+			<!-- Return value to the customer -->
+			<!-- What hiking spot would we advise the customer to try -->
+				<div>
+					<p id="return2" ></p>
+				</div>
+			<!-- Link to click on to bring to info page -->
+			
+		</div>	
 	</body>
 	<script src="javaScript/script.js"></script>
 </html>
