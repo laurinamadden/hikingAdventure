@@ -195,7 +195,15 @@ body{
 	border-radius: 25px;
 	padding: 20px;
 }
+b{
+	font-size: x-large;
+}
 
+#middle{
+	text-align: center;
+}
 
-
+#middle2{
+	text-align: center;
+}
 
