@@ -34,8 +34,6 @@ var day = false;
 // output 
 var msg = ("");
 let return2 = ("");
-let returnLink = ("");
-// returnLink = ("<a href=""></a>");
 
 // Testing
 console.log(connacht);
@@ -313,6 +311,7 @@ function Burren(){
 // The Saint’s Road on the Dingle Peninsula - easy - 11 miles - 5.5-6 hours
 function Dingle(){
 	msg = ("The Saint’s Road on the Dingle Peninsula");
+	page2();
 }
 // Leinster
 // Glendalough in the Wicklow Mountains - Hike Pilgrim Path St Kevin’s Way - 18 miles - 1 day
@@ -341,6 +340,7 @@ function page2(){
 }
 
 // jQuery
+/*
 $( "#hider" ).click(function() {
   $( "span:last-child" ).hide( "fast", function() {
     // Use arguments.callee so we don't need a named function
@@ -350,3 +350,35 @@ $( "#hider" ).click(function() {
 $( "#shower" ).click(function() {
   $( "span" ).show( 2000 );
 });
+*/
+
+// Video - Trying to get addEventListener to call by id and show youTube video - didnt work 
+
+//video.addEventListener("touchstart", handler, passiveEvent);
+//	passiveEvent = true;
+
+//var video = document.getElementById( "vid" );
+
+//vid.addEventListener(document, "touchstart", {passive:true});
+/*
+document.getElementById("vid").addEventListener ("load" , show);
+document.addeventlistener('touchstart' ontouchstart passive true )
+function show(){
+	passiveEvent = true;
+	passive = true;
+	capture = true;
+	scrollblocking = true;
+	touchstart = true;
+}
+
+function myVid(){
+	document.addeventlistener('touchstart' ontouchstart passive true );
+
+document.getElementById("vid").addeventlistener('touchstart' ontouchstart passive true );
+
+document.getElementById("vid").addEventListener('touchstart', handler, passiveEvent);
+
+var ontouchstart = true;
+var passiveEvent = true;
+document.getElementById("vid").addEventListener('touchstart' ontouchstart passiveEvent);
+*/

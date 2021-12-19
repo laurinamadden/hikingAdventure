@@ -40,18 +40,12 @@
 				<br>
 				<!-- Added video -->
 				<!-- <video .addEventListener("touchstart", handler, passiveEvent);> This didnt work -->
-				<!-- <video.addEventListener("touchstart", handler, passiveEvent);>
-					<iframe width="560" height="315" 
-					src="https://www.youtube.com/embed/mnkzP-pEUwI?autoplay=1&mute=1">
-					</iframe> -->
-				<video>	
-					<button id="hider">Hide</button>
-					<button id="shower">Show</button>
-					<div .addEventListener("touchstart", handler, passiveEvent);>
-						<iframe width="560" height="315" 
-						src="https://www.youtube.com/embed/mnkzP-pEUwI?autoplay=1&mute=1">
+				<video.addEventListener("touchstart", handler, passiveEvent);> 
+				<!-- This did work but dont think its best practice  tried using javaScript to do addEventListener but couldnt get it to work. No errors in console. -->
+				<!-- <video id="vid" > -->
+					<iframe id="vid" width="560" height="315" 
+						src="https://www.youtube.com/embed/mnkzP-pEUwI?autoplay=1&mute=1" type="video/webm">
 					</iframe>
-					</div>
 				</video>
 				<br>
 				<!-- First stage -->
@@ -106,7 +100,7 @@
 					<button class="button" onclick="B6option3()" >Almost the day</button>
 				</div>
 				<!-- Return value to the customer -->
-				<!-- What hiking spot would we advise the customer to try -->
+				<!-- The hiking spot would we advise the customer to try -->
 				<div>
 					<b id="return2" ></b>
 				</div>
@@ -127,5 +121,4 @@
 		</div>	
 	</body>
 	<script src="javaScript/script.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </html>
