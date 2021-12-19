@@ -1,4 +1,4 @@
-<!-- Mini Adventure Page - Laurina other than links to other pages -->
+<!-- Mini Adventure Page - Laurina other than nav bar -->
 <!DOCTYPE html>
 <html  lang="en">
 	<head>
@@ -19,24 +19,33 @@
 				</nav>
 			</div>
 		</div>
+		<br>
 		<div class="container">
+			<!-- Below Navigation Icon but commented out as Kriszta has used different icons 
+		<div class="row">
 			<div class="col-sm-2">
-				<!-- Hiking icon -->
-				<img src="../images/stickPerson2.jpg" alt="Black and white image of a stick person hiking"> 
-			</div>
+				 Hiking icon 
+				<img src="images/stickPerson2.jpg" alt="Black and white image of a stick person hiking"> 
+			</div> -->
 			<div id="middle2">
 				<!-- Heading -->
 				<h1>Welcome To The Adventure Of Hiking</h1>
-				<br/>
+				<br>
 				<!-- Text above first stage -->
 				<b>Not sure where to have your next hiking adventure in Ireland?</b>
-				</br>
-				</br>
+				<br>
+				<br>
 				<b>We are here to help you decide.</b>
-				</br>
-				</br>
-				</br>
-				</br>
+				<br>
+				<br>
+				<!-- Added video -->
+				<!-- <video .addEventListener("touchstart", handler, passiveEvent);> This didnt work -->
+				<video.addEventListener("touchstart", handler, passiveEvent);>
+					<iframe width="560" height="315" 
+					src="https://www.youtube.com/embed/mnkzP-pEUwI?autoplay=1&mute=1">
+					</iframe>
+				</video>
+				<br>
 				<!-- First stage -->
 				<!-- Start the adventure by clicking the button -->		
 				<button class="button" id="B1" onclick="B1action()" >Click here to start your new Adventure</button>
@@ -45,7 +54,7 @@
 				<!-- Been hiking before ? -->
 				<div id="B2" >
 					<h2>Have you been hiking in Ireland before ?</h2>
-					</br>
+					<br>
 					<button class="button" onclick="B2option1()" >Of course</button>
 					<button class="button" onclick="B2option2()" >No, its all new to me</button>
 				</div>
@@ -53,7 +62,7 @@
 				<!-- Go Hiking In: Connacht, Ulster, Munster or Leinster ? -->
 				<div id="B3" >	
 					<h2>Where in Ireland would you like to go hiking ?</h2>
-					</br>
+					<br>
 					<button class="button" onclick="B3option1()" >Connacht</button>
 					<button class="button" onclick="B3option2()" >Ulster</button>
 					<button class="button" onclick="B3option3()" >Munster</button>
@@ -65,7 +74,7 @@
 				<!-- Hills, Flatter ground or don't mind ? -->
 				<div id="B4" >	
 					<h2>Is there a type of terrain you would prefer ?</h2>
-					</br>
+					<br>
 					<button class="button" onclick="B4option1()" >Bring on the hills</button>
 					<button class="button" onclick="B4option2()" >Flatter ground for me</button>
 					<button class="button" onclick="B4option3()" >I'm not bothered</button>
@@ -74,7 +83,7 @@
 				<!-- Afraid of heights or caves ? -->
 				<div id="B5" >	
 					<h2>Would you be put off by heights or caves ?</h2>
-					</br>
+					<br>
 					<button class="button" onclick="B5option1()" >I don't have a head for heights</button>
 					<button class="button" onclick="B5option2()" >Caves are too much altogether</button>
 					<button class="button" onclick="B5option3()" >Not at all, I'm up for the adventure</button>
@@ -83,17 +92,25 @@
 				<!-- Time: Do you have a few hours or a full day ? -->
 				<div id="B6" >	
 					<h2>How much time do you have ?</h2>
-					</br>
+					<br>
 					<button class="button" onclick="B6option1()" >A few hours</button>
 					<button class="button" onclick="B6option2()" >A good few hours</button>
 					<button class="button" onclick="B6option3()" >Almost the day</button>
 				</div>
 				<!-- Return value to the customer -->
 				<!-- What hiking spot would we advise the customer to try -->
-					<div>
-						<b id="return2" ></b>
-					</div>
+				<div>
+					<b id="return2" ></b>
+				</div>
 				<!-- Link to click on to bring to info page -->
+				<div id="L1" >
+					<a href="../page3/index.html">More Information</a>
+				</div>
+				<div id="L2" >
+					<a href="../page2/index.html">More Information</a>
+				</div>
+				<br>
+				<br>
 			</div>
 		</div>	
 	</body>
