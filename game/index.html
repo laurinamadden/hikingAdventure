@@ -5,7 +5,9 @@
 		<title>Adventure Game</title>
 		<meta name="keywords" content="Hiking, Game, Advice">
 		<meta name="author" content="Laurina Madden">
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="../style/style.css"/>
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	</head>
 	<body onload="hideButtons()" >
 		<!-- links to other pages - Kriszta -->
@@ -28,21 +30,34 @@
 				<img src="images/stickPerson2.jpg" alt="Black and white image of a stick person hiking"> 
 			</div> -->
 			<div id="middle2">
-				<!-- Heading -->
-				<h1>Welcome To The Adventure Of Hiking</h1>
-				<br>
-				<!-- Text above first stage -->
-				<b>Not sure where to have your next hiking adventure in Ireland?</b>
-				<br>
-				<br>
-				<b>We are here to help you decide.</b>
+				<!-- jQuery div to show and hide with buttons - for lines instead of words -->
+				<button id="hider">Hide</button>
+				<button id="shower">Show</button>
+				<div>
+					<span>
+						<!-- Heading -->
+						<h1>Welcome To The Adventure Of Hiking</h1>
+						<br>
+					</span>
+					<span>	
+						<!-- Text above first stage -->
+						<b>Not sure where to have your next hiking adventure in Ireland?</b>
+						<br>
+					</span>
+					<span>
+						<br>
+						<b>We are here to help you decide.</b>
+					</span>	
+				</div>
 				<br>
 				<br>
 				<!-- Added video -->
 				<!-- <video .addEventListener("touchstart", handler, passiveEvent);> This didnt work -->
-				<video.addEventListener("touchstart", handler, passiveEvent);>
-					<iframe width="560" height="315" 
-					src="https://www.youtube.com/embed/mnkzP-pEUwI?autoplay=1&mute=1">
+				<video.addEventListener("touchstart", handler, passiveEvent);> 
+				<!-- This did work but dont think its best practice  tried using javaScript to do addEventListener but couldnt get it to work. No errors in console. -->
+				<!-- <video id="vid" > -->
+					<iframe id="vid" width="560" height="315" 
+						src="https://www.youtube.com/embed/mnkzP-pEUwI?autoplay=1&mute=1" type="video/webm">
 					</iframe>
 				</video>
 				<br>
@@ -98,7 +113,7 @@
 					<button class="button" onclick="B6option3()" >Almost the day</button>
 				</div>
 				<!-- Return value to the customer -->
-				<!-- What hiking spot would we advise the customer to try -->
+				<!-- The hiking spot would we advise the customer to try -->
 				<div>
 					<b id="return2" ></b>
 				</div>
@@ -111,8 +126,22 @@
 				</div>
 				<br>
 				<br>
+				<br>
+				<br>
+				<br>
+				<br>
 			</div>
 		</div>	
 	</body>
 	<script src="javaScript/script.js"></script>
 </html>
+
+<!--
+<button id="hider">Hide</button>
+<button id="shower">Show</button>
+<div>
+  <span>Once</span> <span>upon</span> <span>a</span>
+  <span>time</span> <span>there</span> <span>were</span>
+  <span>three</span> <span>programmers...</span>
+</div>
+-->

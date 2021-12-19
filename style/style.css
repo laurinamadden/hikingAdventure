@@ -207,3 +207,23 @@ b{
 	text-align: center;
 }
 
+/* For jQuery to show and hide - edited span and created id's to change how buttons look */
+span {
+    padding: 3px;
+    float: center;
+}
+ 
+#hider{
+	background-color: #27a92c;
+	border-radius: 25px;
+	color: #fff;
+	padding: 4px;
+}
+
+#shower{
+	background-color: #27a92c;
+	border-radius: 25px;
+	color: #fff;
+	padding: 4px;
+}
+ 

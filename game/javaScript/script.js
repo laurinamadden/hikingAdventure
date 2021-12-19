@@ -339,8 +339,7 @@ function page2(){
 	document.getElementById("L2").style.display = "block";
 }
 
-// jQuery
-/*
+// jQuery to hide and show top of game page - edited show time from 2000 to 800
 $( "#hider" ).click(function() {
   $( "span:last-child" ).hide( "fast", function() {
     // Use arguments.callee so we don't need a named function
@@ -348,9 +347,8 @@ $( "#hider" ).click(function() {
   });
 });
 $( "#shower" ).click(function() {
-  $( "span" ).show( 2000 );
+  $( "span" ).show( 800 );
 });
-*/
 
 // Video - Trying to get addEventListener to call by id and show youTube video - didnt work 
 
