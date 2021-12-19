@@ -339,7 +339,7 @@ function page2(){
 	document.getElementById("L2").style.display = "block";
 }
 
-// jQuery to hide and show top of game page - edited show time from 2000 to 800
+// jQuery to hide and show text at top of game page - edited show time from 2000 to 800
 $( "#hider" ).click(function() {
   $( "span:last-child" ).hide( "fast", function() {
     // Use arguments.callee so we don't need a named function
