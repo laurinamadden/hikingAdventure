@@ -349,34 +349,3 @@ $( "#hider" ).click(function() {
 $( "#shower" ).click(function() {
   $( "span" ).show( 800 );
 });
-
-// Video - Trying to get addEventListener to call by id and show youTube video - didnt work 
-
-//video.addEventListener("touchstart", handler, passiveEvent);
-//	passiveEvent = true;
-
-//var video = document.getElementById( "vid" );
-
-//vid.addEventListener(document, "touchstart", {passive:true});
-/*
-document.getElementById("vid").addEventListener ("load" , show);
-document.addeventlistener('touchstart' ontouchstart passive true )
-function show(){
-	passiveEvent = true;
-	passive = true;
-	capture = true;
-	scrollblocking = true;
-	touchstart = true;
-}
-
-function myVid(){
-	document.addeventlistener('touchstart' ontouchstart passive true );
-
-document.getElementById("vid").addeventlistener('touchstart' ontouchstart passive true );
-
-document.getElementById("vid").addEventListener('touchstart', handler, passiveEvent);
-
-var ontouchstart = true;
-var passiveEvent = true;
-document.getElementById("vid").addEventListener('touchstart' ontouchstart passiveEvent);
-*/
