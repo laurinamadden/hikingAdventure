@@ -14,6 +14,8 @@ function hideButtons(){
 	document.getElementById("B4").style.display = "none";	
 	document.getElementById("B5").style.display = "none";	
 	document.getElementById("B6").style.display = "none";	
+	document.getElementById("L1").style.display = "none";	
+	document.getElementById("L2").style.display = "none";	
 	document.getElementById("return2").style.display = "none";
 }
 
@@ -32,6 +34,8 @@ var day = false;
 // output 
 var msg = ("");
 let return2 = ("");
+let returnLink = ("");
+// returnLink = ("<a href=""></a>");
 
 // Testing
 console.log(connacht);
@@ -260,43 +264,51 @@ function decide(){
 // Croagh Patrick - 4.5 miles - 5 hours
 function Patrick(){
 	msg = ("Croagh Patrick");
+	page3();
 }
 // Carrowtiege – The Children of Lir Loop - The hike is flat and approachable
 // 6.2 miles - 2.5 hours
 function Carrow(){
 	msg = ("Carrowtiege – The Children of Lir Loop");
+	page3();
 }
 // Inishbofin Loop - caves coves Pirate Queen Grace O’Malley
 // Distance:Respectively: 8 km/8 km/5 km (5 mi/5 mi/3 mi) - 2.5/2.5/2 hours
 function Inishbofin(){
-	console.log("Inishbofin Loop");
 	msg = ( "Inishbofin Loop - Pirate Queen Grace O’Malley" );
+	page3();
 }
 // Dún Aonghasa - Inis Mór - 45min
 function Inis(){
 	msg = ("Dun Aonghasa - Inis Mor");
+	page3();
 }
 // Ulster
 // Slieve Donard in the Mourne Mountains - hills - 5.5 miles - 5 hours
 function Donard(){
 	msg = ("Slieve Donard in the Mourne Mountains");
+	page2();
 }
 // The Pilgrim's Path at Slieve League clifs - 3.5 miles - 2.5 hours
 function Pilgrim(){
 	msg = ("The Pilgrim's Path at Slieve League");
+	page2();
 }
 // Mt Errigal in Glenveagh National Park - 5 miles - 4 hours
 function Glenveagh(){
 	msg = ("Mt Errigal in Glenveagh National Park");
+	page2();
 }
 // Munster
 // Carrauntoohil - 8.7 miles - 7 hours
 function Carrauntoohil(){
 	msg = ("Carrauntoohil");
+	page2();
 }
 // Mullaghmore, The Burren - 4 miles - 2-3 hours
 function Burren(){
 	msg = ("Mullaghmore, The Burren");
+	page2();
 }
 // The Saint’s Road on the Dingle Peninsula - easy - 11 miles - 5.5-6 hours
 function Dingle(){
@@ -306,58 +318,24 @@ function Dingle(){
 // Glendalough in the Wicklow Mountains - Hike Pilgrim Path St Kevin’s Way - 18 miles - 1 day
 function Glendalough(){
 	msg = ("Glendalough in the Wicklow Mountains - Hike Pilgrim Path St Kevin’s Way");
+	page3();
 }
 // Lugnaquilla - The Highest Mountain in Wicklow - 10 miles - 7 hours
 function Lugnaquilla(){
 	msg = ("Lugnaquilla - The Highest Mountain in Wicklow");
+	page3();
 }
 // Gateway – Glendalough Loop - 3.15 miles - 1.27hrs
 function Gateway(){
 	msg = ("Gateway – Glendalough Loop");
+	page3();
 }
 
-//link to info page
+// Show link to info page
+function page3(){
+	document.getElementById("L1").style.display = "block";	
+}
 
-
-/*
-
-** Options for return to user **
- 
-Connacht
-
-Croagh Patrick - 4.5 miles - 5 hours
-
-Carrowtiege – The Children of Lir Loop - The hike is flat and approachable
-6.2 miles - 2.5 hours
-
-Inishbofin Loop - caves coves Pirate Queen Grace O’Malley
-Distance:Respectively: 8 km/8 km/5 km (5 mi/5 mi/3 mi) - 2.5/2.5/2 hours
-
-Dún Aonghasa - Inis Mór - 45min
-
-Ulster
-
-Slieve Donard in the Mourne Mountains - hills - 5.5 miles - 5 hours
-
-The Pilgrim's Path at Slieve League clifs - 3.5 miles - 2.5 hours
-
-Mt Errigal in Glenveagh National Park - 5 miles - 4 hours
-
-Munster
-
-Carrauntoohil - 8.7 miles - 7 hours
-
-Mullaghmore, The Burren - 4 miles - 2-3 hours
-
-The Saint’s Road on the Dingle Peninsula - easy - 11 miles - 5.5-6 hours
-
-Leinster
-
-Glendalough in the Wicklow Mountains - Hike Pilgrim Path St Kevin’s Way - 18 miles - 1 day
-
-Lugnaquilla - The Highest Mountain in Wicklow - 10 miles - 7 hours
-
-Gateway – Glendalough Loop - 3.15 miles - 1.27hrs
-
-
-*/
+function page2(){
+	document.getElementById("L2").style.display = "block";
+}
