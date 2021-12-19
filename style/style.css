@@ -7,6 +7,7 @@
 }
 body{
 	background-color:#b5e7a0;
+	font-family: georgian;
 }
 #myMenu{
     width: 100%;
@@ -199,6 +200,7 @@ b{
 	font-size: x-large;
 }
 
+/* Aline Test above adventure game */
 #middle{
 	text-align: center;
 }
